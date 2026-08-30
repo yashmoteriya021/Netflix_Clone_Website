@@ -3,15 +3,37 @@
     margin:0;
 }
 .main{
-    height: 80vh;
+    height: 100vh;
     background-image: url(assets/img/bg.jpg);
     position: relative;
+    background-repeat: no-repeat;
+    
 }
 .main .box{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     position: absolute;
     top:0;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.75;
+    z-index: 0;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 200px;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+.written{
+    margin: 0;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    font-size:30px;
+    padding-top: 180px;
+    padding-left: 500px;
 }
