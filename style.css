@@ -37,3 +37,10 @@ nav{
     padding-top: 180px;
     padding-left: 500px;
 }
+.container{
+    padding-top: 10px;
+    padding-left: 150px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
