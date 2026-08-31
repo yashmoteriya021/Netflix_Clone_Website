@@ -43,4 +43,32 @@ nav{
     display: flex;
     gap: 20px;
     overflow-x: auto;
+     scrollbar-width: none;  
+}
+.write{
+    /* justify-content: center; */
+    padding-top: 50px;
+    padding-left: 150px;
+    display: flex;
+    gap: 25px;
+}
+.item{
+    font-family: sans-serif;
+    background: linear-gradient(
+        135deg,
+        #18224a,
+        #211226
+    );
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    color:white;
+    /* border: 1px solid white; */
+
+}
+.item h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
